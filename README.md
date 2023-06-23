@@ -1,3 +1,3 @@
 # PrithvirajSawant.github.io
 A brief description about my skills and projects  
-https://prithvirajsawant.github.io/
+click [here](https://prithvirajsawant.github.io/)
