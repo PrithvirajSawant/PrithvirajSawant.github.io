@@ -349,6 +349,11 @@ body {
 
 .hero-text { margin-block-end: 25px; }
 
+.hero-text span{
+  color: rgb(220, 82, 8); 
+  display: inline-block;
+}
+
 .btn-group {
   display: flex;
   flex-wrap: wrap;
@@ -378,6 +383,11 @@ body {
 
 .about-banner > .img-cover { border-radius: inherit; }
 
+.about-content p.section-text{
+  text-align: justify;
+
+}
+
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
 .about :is(.section-title, .section-text) { margin-block-end: 30px; }
@@ -389,12 +399,26 @@ body {
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+.portfolio1{
+  /* border: 2px solid green; */
+  padding-bottom: 0px;
+}
 
-/* .portfolio .section-title { margin-block-end: 18px; }
+.portfolio{
+  /* border: 2px solid green; */
+  padding-top: 10px;
+}
 
-.portfolio .section-text { margin-block-end: 80px; }
+.portfolio1 .section-text span{
+  color: orange;
+  display: inline-block;
+}
 
-.portfolio-list {
+/* .portfolio .section-title { margin-block-end: 18px; } */
+
+/* .portfolio .section-text { margin-block-end: 80px; } */
+
+/*.portfolio-list {
   display: grid;
   gap: 60px;
 }
@@ -759,6 +783,15 @@ textarea.contact-input {
 
 .blog-card { font-family: var(--ff-barlow); }
 
+
+.card-banner{
+  /* border: 2px solid #000; */
+  display: flex;
+  height: 500px;
+  width: 300px;
+  justify-content: center;
+}
+
 .blog-card .card-banner {
   background-color: var(--independence);
   border-radius: var(--radius-15);
@@ -830,6 +863,37 @@ textarea.contact-input {
 
 .footer-link:is(:hover, :focus) { color: var(--white); }
 
+.biu{
+  color: #a6a4ab;
+}
+
+.biu:hover{
+  color: rgb(117, 117, 113);
+}
+
+.bi-github{
+  color: #000;
+}
+
+.bi:hover{
+  color: rgb(117, 117, 113);
+}
+
+.bi-linkedin{
+  color: #000;
+}
+
+.bi-instagram{
+  color: #000;
+}
+
+.bi:visited{
+  color: rgb(214, 219, 219);
+}
+
+.bi:active {
+  color: var(--orange-soda);
+}
 
 
 
@@ -969,6 +1033,7 @@ textarea.contact-input {
 
 
 
+
   /**
    * HEADER
    */
@@ -1007,6 +1072,8 @@ textarea.contact-input {
   /**
    * HERO
    */
+
+  .isro{display: none;}
 
   .hero .container {
     display: grid;
@@ -1225,4 +1292,8 @@ textarea.contact-input {
   .copyright,
   .footer-list { margin-inline: 0; }
 
+  
+
 }
+
+

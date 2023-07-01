@@ -6,6 +6,8 @@
   .portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 15px auto;
+    /* margin-top: 0px; */
+    /* margin: auto; */
     list-style: none;
     text-align: center;
     border-radius: 50px;
