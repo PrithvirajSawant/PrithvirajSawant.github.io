@@ -12,7 +12,7 @@ function isMobileOrTablet() {
 
 if (isMobileOrTablet()) {
   // Display an alert message.
-  alert('Enhanced visual appearance in - DESKTOP MODE');
+  alert('Enhanced visual appearance in - DESKTOP MODE (width > 991px)');
 
   // Redirect to the desktop version of the website.
   // window.location.href = 'https://www.example.com/desktop/';
@@ -94,6 +94,17 @@ document.querySelectorAll('.dc').forEach(span => {
     disappear(span);
   });
 });
+
+/* Refresh Button - Start*/ 
+function refreshPage() {
+  window.location.reload();
+}
+
+const buttons = document.querySelectorAll("[id^='refreshButton']");
+for (const button of buttons) {
+  button.addEventListener("click",refreshPage );
+}
+/* Refresh Button - end*/ 
 
   /**
    * Porfolio isotope and filter

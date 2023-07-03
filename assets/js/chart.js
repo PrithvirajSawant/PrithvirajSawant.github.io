@@ -23,14 +23,14 @@ google.charts.load('current', {'packages':['corechart']});
       }
 
       /* Refresh Button - Start*/ 
-      function refreshPage() {
-        window.location.reload();
-      }
+      // function refreshPage() {
+      //   window.location.reload();
+      // }
 
-      const buttons = document.querySelectorAll("[id^='refreshButton']");
-      for (const button of buttons) {
-        button.addEventListener("click",refreshPage );
-      }
+      // const buttons = document.querySelectorAll("[id^='refreshButton']");
+      // for (const button of buttons) {
+      //   button.addEventListener("click",refreshPage );
+      // }
       /* Refresh Button - end*/ 
 
       
