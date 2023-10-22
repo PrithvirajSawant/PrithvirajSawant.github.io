@@ -1208,9 +1208,16 @@ textarea.contact-input {
     border-radius: inherit;
   }
 
+  .abs-icon-0  {
+    /* bottom: -40px; */
+    top: -120px;
+    left: 100px;
+    background-color: var(--rufous);
+  }
+
   .abs-icon-1 {
     top: 50px;
-    left: -120px;
+    left: -70px;
     background-color: var(--bluetiful);
   }
 
@@ -1223,8 +1230,10 @@ textarea.contact-input {
   .abs-icon-3 {
     bottom: -40px;
     left: 250px;
-    background-color: var(--rufous);
+    background-color: #000;
   }
+
+  
 
 
 
