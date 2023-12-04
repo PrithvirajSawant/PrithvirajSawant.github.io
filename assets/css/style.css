@@ -362,6 +362,64 @@ body {
   gap: 10px;
 }
 
+.wrapper{
+  box-sizing: content-box;
+  /* background-color: #242338; */
+  height: 40px;
+  /* padding: 50px 30px; */
+  display: flex;
+  /* box-shadow:  rgba(0,0,0,0,2); */
+  /* border: 1px solid red; */
+}
+
+.word span{
+  display: block;
+  /* border: 1px solid orange; */
+  height: 50px;
+  padding-left: 40px;
+  animation: spin_words 6s infinite;
+  color: var(--orange-soda);
+}
+
+.word{
+  overflow: hidden;
+}
+
+@keyframes spin_words {
+
+  10%{
+    transform: translateY(-4%);
+  }
+  15%{
+    transform: translateY(-4%);
+  }
+  20%{
+    transform: translateY(-4%);
+  }
+  25%{
+    transform: translateY(-100%);
+  }
+  35%{
+    transform: translateY(-100%);
+  } 
+  50%{
+    transform: translateY(-200%);
+  }
+  60%
+  {
+    transform: translateY(-200%);
+  }
+  75%{
+    transform: translateY(-100%);
+  }
+  85%{
+    transform: translateY(-4%);
+  }
+  100%{
+    transform: translateY(-100%)
+  }
+  
+}
 
 
 
@@ -1252,6 +1310,30 @@ textarea.contact-input {
    */
 
   .skills-list { column-gap: 100px; }
+
+  .skill_card{
+    /* border: 2px solid red; */
+    background-color: transparent;
+    box-shadow: 5px 5px 20px #000;
+  }
+
+  .skill_card_sp{
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .card-body{
+    display: flex;
+    align-items:baseline;
+    /* align-items: flex-baseline; */
+    /* justify-content: center; */
+    /* border: 2px solid orange; */
+    /* display:inline-block;
+    padding-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
 
 

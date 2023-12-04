@@ -104,6 +104,8 @@ const buttons = document.querySelectorAll("[id^='refreshButton']");
 for (const button of buttons) {
   button.addEventListener("click",refreshPage );
 }
+
+
 /* Refresh Button - end*/ 
 
   /**
