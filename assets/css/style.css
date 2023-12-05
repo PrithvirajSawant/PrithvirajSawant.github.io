@@ -407,29 +407,29 @@ body {
     transform: translateY(-4%);
   }
   25%{
-    transform: translateY(-110%);
+    transform: translateY(-100%);
   }
   35%{
-    transform: translateY(-110%);
+    transform: translateY(-100%);
   } 
   50%{
-    transform: translateY(-210%);
+    transform: translateY(-200%);
   }
   60%
   {
-    transform: translateY(-210%);
+    transform: translateY(-200%);
   }
   75%{
-    transform: translateY(-315%);
+    transform: translateY(-300%);
   }
   80%{
-    transform: translateY(-315%);
+    transform: translateY(-300%);
   }
   85%{
-    transform: translateY(-410%);
+    transform: translateY(-397%);
   }
   90%{
-    transform: translateY(-410%);
+    transform: translateY(-397%);
   }
   95%{
     transform: translateY(-4%);
