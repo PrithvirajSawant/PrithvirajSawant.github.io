@@ -3,14 +3,14 @@ google.charts.load('current', {'packages':['corechart']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Web Development', 'Data Structure & Algorithms' , 'Core Java' , 'Python' , 'C++' , 'Machine Learning' ,    'SQL' ],
-          ['2019',        0,                          0,                   0,            0,       0,              0,              0   ],
-          ['2020',       50,                        100,                   0,            0,     300,              0,              0   ],
-          ['2021',      200,                        500,                   0,          200,     900,              0,              0   ],
-          ['2022',     1200,                        100,                 400,          700,    1000,            400,            400   ],
-          ['2023',     2000,                       1050,                1950,          300,       0,            500,           1800   ]
-        ]);
-
+          ['Year', 'Core Java',  'Advance Java/Frameworks' , 'Web Development' ,  'Data Structure & Algorithms' ,   'SQL'  ,   'Python',     'C++' ,   'Machine Learning' ],
+          ['2019',      0     ,         0                  ,        0          ,                0               ,      0   ,       0   ,        0  ,           0          ],
+          ['2020',      0     ,         0                  ,       50          ,              100               ,      0   ,       0   ,      300  ,           0          ],
+          ['2021',      0     ,         0                  ,      200          ,              500               ,      0   ,     200   ,      900  ,           0          ],
+          ['2022',    400     ,       100                  ,     1200          ,              100               ,    400   ,     700   ,     1000  ,         400          ],
+          ['2023',   2000     ,      1960                  ,     1950          ,             1900               ,   1800   ,     300   ,        0  ,         500          ]
+        ]); 
+        
         var options = {
           title: 'Y-O-Y Performance',
           curveType: 'function',

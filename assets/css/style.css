@@ -1073,6 +1073,11 @@ textarea.contact-input {
     align-items: flex-start;
   }
 
+  .stars i {
+    color: #ffc107;
+    margin: 0 1px;
+  }
+
 }
 
 @media (min-width: 600px) {
