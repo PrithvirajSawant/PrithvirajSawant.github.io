@@ -1129,7 +1129,7 @@ textarea.contact-input {
     width: 100%;
     background: #242338;
     border-left: 2px solid white;  
-    animation: typing 1.5s steps(25) infinite;
+    animation: typing 1.5s steps(50) infinite;
   }
 
   @keyframes typing {
@@ -1584,8 +1584,8 @@ textarea.contact-input {
     height: 100%;
     width: 100%;
     background: #242338;
-    border-left: 2px solid white;  
-    animation: typing 1.5s steps(25) infinite;
+    /* border-left: 2px solid white;   */
+    animation: typing 1.5s steps(70) infinite;
   }
 
   @keyframes typing {
