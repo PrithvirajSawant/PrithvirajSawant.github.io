@@ -1078,6 +1078,69 @@ textarea.contact-input {
     margin: 0 1px;
   }
 
+  /**
+  * upLine
+  */
+  .upLine{
+    display: flex;
+    padding: 40px 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .wrapper .dynamic-txts{
+    display: grid;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    /* background: red; */
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .dynamic-txts li{
+    color: var(--orange-soda);
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(5) infinite;
+  }
+
+  @keyframes slide {
+    100%{
+      top: -460px;
+    }
+    
+  }
+
+  .dynamic-txts li span{
+    position: relative;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #242338;
+    border-left: 2px solid white;  
+    animation: typing 1.5s steps(25) infinite;
+  }
+
+  @keyframes typing {
+    100%{
+      left:100%;
+      margin: 0 -35px 0 35px;
+    }
+    
+  }
+
+
 }
 
 @media (min-width: 600px) {
@@ -1451,6 +1514,20 @@ textarea.contact-input {
     gap: 25px;
   }
 
+  /**
+  * upLine
+  */
+  .upLine{
+    display: flex;
+    padding-top: 40px;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+  }
+
+
+
   
 
   /**
@@ -1465,6 +1542,59 @@ textarea.contact-input {
 
   .copyright,
   .footer-list { margin-inline: 0; }
+
+  .wrapper .dynamic-txts{
+    /* border: 2px solid red; */
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    /* background: red; */
+    overflow: hidden;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* margin-left: 250px ; */
+  }
+
+  .dynamic-txts li{
+    color: var(--orange-soda);
+    list-style: none;
+    font-size: 85px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(5) infinite;
+  }
+
+  @keyframes slide {
+    100%{
+      top: -460px;
+    }
+    
+  }
+
+  .dynamic-txts li span{
+    position: relative;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #242338;
+    border-left: 2px solid white;  
+    animation: typing 1.5s steps(25) infinite;
+  }
+
+  @keyframes typing {
+    100%{
+      left:100%;
+      margin: 0 -35px 0 35px;
+    }
+    
+  }
 
   
 
