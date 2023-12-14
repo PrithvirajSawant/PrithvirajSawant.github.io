@@ -1593,7 +1593,13 @@ textarea.contact-input {
       left:100%;
       margin: 0 -35px 0 35px;
     }
+
     
+  }
+
+  .expMain{
+    /* border: 2px solid red; */
+    padding-bottom: 800px;
   }
 
   
