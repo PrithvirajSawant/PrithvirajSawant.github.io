@@ -472,6 +472,11 @@ body {
 
 .about :is(.section-title, .section-text) { margin-block-end: 30px; }
 
+.section-text span{
+  color: rgb(220, 82, 8); 
+  display: inline-block;  
+}
+
 
 
 
