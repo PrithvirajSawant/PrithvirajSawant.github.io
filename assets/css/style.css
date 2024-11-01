@@ -385,7 +385,7 @@ body {
   /* border: 1px solid orange; */
   height: 50px;
   padding-left: 25px;
-  animation: spin_words 6s infinite;
+  animation: spin_words 5s infinite;
   color: var(--orange-soda);
 }
 
@@ -401,9 +401,6 @@ body {
     transform: translateY(-4%);
   }
   15%{
-    transform: translateY(-4%);
-  }
-  20%{
     transform: translateY(-4%);
   }
   25%{
