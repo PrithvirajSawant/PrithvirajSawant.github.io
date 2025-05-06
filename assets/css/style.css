@@ -1424,7 +1424,8 @@ textarea.contact-input {
   .abs-icon-1 {
     top: 50px;
     left: -70px;
-    background-color: var(--bluetiful);
+    /* background-color: var(--bluetiful); */
+    background-color: green;
   }
 
   .abs-icon-2 {
@@ -1437,6 +1438,14 @@ textarea.contact-input {
     bottom: -40px;
     left: 250px;
     background-color: #000;
+  }
+
+  .abs-icon-5 {
+    top: 300px;
+    left: 440px;
+    z-index: -1;
+    background-color: var(--bluetiful);
+    /* background-color: green; */
   }
 
   
