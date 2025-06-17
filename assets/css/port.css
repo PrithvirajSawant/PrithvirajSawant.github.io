@@ -174,5 +174,22 @@
   .portfolio-details .portfolio-description p {
     padding: 0;
   }
+
+  .portres {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .portres::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/process-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;               /* Preserve actual size */
+    background-position: left center;    /* Adjust position if needed */
+    transform: scaleX(1.13);
+    z-index: -1;
+  }
   
   
