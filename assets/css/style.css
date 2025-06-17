@@ -2,13 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -1492,7 +1485,23 @@ textarea.contact-input {
     align-items: flex-start;
   }
 
+.secres {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
 
+.secres::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../images/process-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;               /* Preserve actual size */
+  background-position: left center;    /* Adjust position if needed */
+  transform: scaleX(-1.13);
+  z-index: -1;
+}
 
   /**
    * CONTACT
@@ -1616,5 +1625,27 @@ textarea.contact-input {
   
 
 }
+
+/* ART */
+
+.artres {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /* min-height: 100vh; */
+}
+
+.artres::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  transform: scaleY(-1.13); /* Vertical inversion */
+  z-index: -1;
+}
+
 
 
