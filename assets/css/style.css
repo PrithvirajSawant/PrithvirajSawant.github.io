@@ -390,47 +390,37 @@ body {
 
 @keyframes spin_words {
 
-  10%{
-    transform: translateY(-4%);
+  0%{
+    transform: translateY(0%);
   }
+
   15%{
-    transform: translateY(-4%);
+    transform: translateY(0%);
   }
-  25%{
+
+  30%{
     transform: translateY(-100%);
   }
-  35%{
+
+  45%{
     transform: translateY(-100%);
   } 
-  50%{
+
+  60%{
     transform: translateY(-200%);
   }
-  60%
-  {
-    transform: translateY(-200%);
-  }
+
   75%{
-    transform: translateY(-300%);
+    transform: translateY(-200%);
   }
-  80%{
-    transform: translateY(-300%);
-  }
-  85%{
-    transform: translateY(-397%);
-  }
+
   90%{
-    transform: translateY(-397%);
+    transform: translateY(0%);
   }
-  95%{
-    transform: translateY(-4%);
-  }
+
   100%{
-    transform: translateY(-4%)
+    transform: translateY(0%);
   }
-  /* 110%{
-    transform: translateY(-300%);
-  } */
-  
 }
 
 
@@ -1645,6 +1635,12 @@ textarea.contact-input {
   background-position: left center;
   transform: scaleY(-1.13); /* Vertical inversion */
   z-index: -1;
+}
+
+@keyframes pulse {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
 
